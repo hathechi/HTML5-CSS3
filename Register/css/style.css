@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+
+    background: url(../image/black-girl-cartoon-wallpaper.jpg ) no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.nav_bar {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.logo {
+    padding-top: 30px;
+    color: rgb(174, 170, 170);
+}
+
+.logo h1 {
+    display: inline;
+    color: rgb(185, 184, 184);
+}
+
+.nav_right {
+    float: right;
+}
+
+.nav_right ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_right ul li {
+    padding: 0 10px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.nav_right ul li a {
+    text-decoration: none;
+    color: rgb(203, 203, 203);
+}
+
+.nav_right ul li a:hover {
+    color: #fff;
+}
+
+
+.Text h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.button button {
+    padding: 20px 30px;
+    border: none;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+button:hover {
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+}
+
+.form_left {
+    width: 60%;
+}
+
+.form_right {
+    width: 40%;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.form_right h1 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.form_right div input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+small {
+    color: red;
+
+}
+
+.form_right div {
+    margin: 25px 0px;
+}
+
+.form_right button {
+    padding: 12px 80px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 2px solid #fff;
+    margin: 20px 0px 30px 0px;
+}
+
+.form_right button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.form_right a {
+    color: rgb(216, 42, 42);
+}
+
+.form_right a:hover {
+    color: #fff;
+}
+
+/* -------------------------------------- */
+
+/* -------------------------- */
+
+.img-list img,
+.img2-image1 img,
+.img2-image2 img {
+    max-width: 380px;
+    max-height: 500px;
+}
+
+
+/* --------------------- */
+.image2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 10%;
+}
+
+.img2-image1 {
+    margin-top: 70px !important;
+}
+
+.img2-image1 img,
+.img2-image2 img {
+    border-radius: 5px;
+}
+
+.img2-text,
+.img2-image1,
+.img2-image2 {
+    margin: 20px;
+}
+
+.img2-text h1 {
+    margin: 20px 0px 40px 0px;
+}
+
+.img2-text h5 {
+    opacity: 0.8;
+    font-weight: 700;
+}
+
+.img2-text h4 {
+    opacity: 0.5;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.button2 {
+    margin-top: 30px;
+}
+
+.button2 .btn {
+    padding: 15px 25px;
+    border: none;
+    background-color: #000;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.btn:hover {
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* ---------------------- */
+
+
+/* ----------------------------------- */
+
+footer {
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+.padding-left h4 {
+    padding: 0px 0px 20px 8px;
+
+}
+
+.padding-left ul li {
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.br_footer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+.footer_text {
+    width: 40%;
+}
+
+.footer_text1 {
+    /* margin: auto; */
+    width: 50%;
+}
+
+.footer_text2 {
+    /* margin: auto; */
+    width: 33.333%;
+
+}
+
+.footer_flex {
+    display: flex;
+}
+
+.footer_text1_1 {
+    width: 30%;
+}
+
+.footer_text1_2 {
+    width: 70%;
+}
+
+.group i {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.group {
+    margin-top: 20px;
+}
+
+.footer_bottom {
+    text-align: center;
+    padding-bottom: 50px;
+}

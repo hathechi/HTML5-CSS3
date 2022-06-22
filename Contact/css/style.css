@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+
+    background: url(../image/cute-wallpapers-for-black-girls.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.nav_bar {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.logo {
+    padding-top: 30px;
+    color: rgb(174, 170, 170);
+}
+
+.logo h1 {
+    display: inline;
+    color: rgb(131, 131, 131);
+}
+
+.nav_right {
+    float: right;
+}
+
+.nav_right ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_right ul li a {
+    text-decoration: none;
+    color: rgb(203, 203, 203);
+}
+
+.nav_right ul li a:hover {
+    color: #fff;
+}
+
+.form {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.text h4 {
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    padding: 30px 0px 70px 0px;
+}
+
+.button button {
+    padding: 20px 30px;
+    border: none;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+button:hover {
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* -------------------------------------- */
+
+
+/* ---------------------- */
+
+
+/* ----------------------------------- */
+.br_email {
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    background-color: rgb(239, 239, 239);
+    padding: 100px 80px;
+    margin-top: 100px;
+}
+
+.form_email h4 {
+    padding: 15px 0px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.form_email h1 {
+    font-weight: 100;
+}
+
+.form_email input {
+    width: 416px;
+    height: 37px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    background-color: rgb(239, 239, 239);
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.form_email button {
+    width: 135px;
+    height: 56px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    margin: 70px 0px;
+
+}
+
+.form_email button:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.input_bottom {
+    padding-top: 80px;
+}
+
+/* maps */
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* ----------------------------------- */
+
+footer {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+.padding-left h4 {
+    padding: 0px 0px 20px 8px;
+
+}
+
+.padding-left ul li {
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.br_footer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+.footer_text {
+    width: 40%;
+}
+
+.footer_text1 {
+    /* margin: auto; */
+    width: 50%;
+}
+
+.footer_text2 {
+    /* margin: auto; */
+    width: 33.333%;
+
+}
+
+.footer_flex {
+    display: flex;
+}
+
+.footer_text1_1 {
+    width: 30%;
+}
+
+.footer_text1_2 {
+    width: 70%;
+}
+
+.group i {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.group {
+    margin-top: 20px;
+}
+
+.footer_bottom {
+    text-align: center;
+    padding-bottom: 50px;
+}
