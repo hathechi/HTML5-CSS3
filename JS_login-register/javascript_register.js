@@ -216,8 +216,8 @@ document.querySelector('#button_login') &&
         // add user
         const isCheck = store.login(username, password)
         if (isCheck) {
-            window.location = "../Home/index.html"
-
+            // window.location = "../Home/index.html"
+            window.location = "https://hathechi.github.io/HTML5-CSS3"
         } else {
             document.querySelector('#error').innerHTML = 'Sai UserName or PassWord!'
             setTimeout(remove, 1500)
