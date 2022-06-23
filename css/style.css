@@ -252,12 +252,13 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin: 50px auto;
+    text-align: center;
 }
 
 .list_text {
     margin: 0px 50px;
-    text-decoration: underline;
-    color: rgb(252, 3, 136);
+    /* text-decoration: underline; */
+    color: rgb(252, 3, 115);
     font-size: 40px;
     text-align: center;
 }
@@ -619,5 +620,6 @@ li {
     /* ---------------- */
     .list_text {
         font-size: 20px;
+        text-align: center;
     }
 }
