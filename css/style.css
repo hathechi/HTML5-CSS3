@@ -541,6 +541,10 @@ li {
 
     }
 
+    .nav_right ul li a {
+        font-size: 14px;
+    }
+
     .content1 {
         width: 80%;
         margin: auto;
@@ -612,4 +616,8 @@ li {
         font-size: 14px;
     }
 
+    /* ---------------- */
+    .text_run {
+        display: none;
+    }
 }

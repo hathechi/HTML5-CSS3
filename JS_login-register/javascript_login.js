@@ -200,6 +200,7 @@ document.querySelector('#btn_register') &&
         }
 
     })
+
 ///// xu ly dang nhap
 document.querySelector('#button_login') &&
     document.querySelector('#button_login').addEventListener('click', function (e) {
