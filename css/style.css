@@ -617,7 +617,7 @@ li {
     }
 
     /* ---------------- */
-    .text_run {
-        display: none;
+    .list_text {
+        font-size: 20px;
     }
 }
